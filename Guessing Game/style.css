@@ -1,0 +1,56 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+    background-color: rgb(209, 131, 15);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+#input {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  gap: 5px;
+}
+
+#guess {
+  padding: 5px;
+  font-size: 1rem;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+button {
+  height: 40px;
+  width: 120px;
+  font-size: 1rem;
+  background-color: orange;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(230, 164, 43);
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(231, 181, 88);
+}
+
+#result {
+  display: flex;
+  justify-content: center;
+}
