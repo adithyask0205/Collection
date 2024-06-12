@@ -1,0 +1,9 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-size: 1.4rem;
+  height: 50px;
+}
